@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.example.myapp123.MainActivity">
+
+    <TextView
+        android:id="@+id/proximitySensor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_info"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steps" />
+
+    <TextView
+        android:id="@+id/tv_steps"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calories" />
+
+    <TextView
+        android:id="@+id/calories"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calories" />
+
+    <TextView
+        android:id="@+id/calorie"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+    <Button
+        android:id="@+id/moodOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOOD ON" />
+
+    <Button
+        android:id="@+id/moodOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOOD OFF" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pause" />
+
+    <ImageView
+        android:id="@+id/btnSpeak"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:onClick="getSpeechInput"
+        android:src="@drawable/ic_mic" />
+
+
+
+
+</LinearLayout>
